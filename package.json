@@ -1,0 +1,21 @@
+{
+  "name": "itau-cypress",
+  "version": "1.0.0",
+  "description": "Teste realizado para o Itau",
+  "main": "index.js",
+
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  
+  "scripts": {
+    "cypress": "cypress open"
+  },
+  "author": "IgorOliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.5.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^1.6.2"
+  }
+}

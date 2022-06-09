@@ -2,7 +2,7 @@ import {Given, When, And, Then } from "cypress-cucumber-preprocessor/steps";
 const search = require('../../pages/google_page')
 
 Given('A common user goes to the google page', () =>{
-    cy.visit('https://www.google.com.br/')
+    cy.visit('/')
 })
 
 When('He search for "Itaú Linkedin"', () =>{

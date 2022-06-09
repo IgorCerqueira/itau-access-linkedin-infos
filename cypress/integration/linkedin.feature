@@ -1,6 +1,6 @@
 Feature: Access information about Itaú on Linkedin
 
-    Feature This feature is necessary to ensure that a regular user can see the 'About' Us information.
+    Feature This feature is necessary to ensure that a regular user can see the "About" information on the linkedin page.
 
     Background: 
         Given A common user goes to the google page
